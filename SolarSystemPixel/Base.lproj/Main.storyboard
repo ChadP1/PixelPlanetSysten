@@ -94,7 +94,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="jxc-vn-3vX" kind="showDetail" id="Qa4-Io-HzH"/>
+                        <segue destination="jxc-vn-3vX" kind="showDetail" identifier="planetInfo" id="Qa4-Io-HzH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
