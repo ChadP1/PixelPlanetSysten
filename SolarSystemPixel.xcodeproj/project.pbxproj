@@ -12,6 +12,15 @@
 		6C41DEB81C650BE7004873C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C41DEB61C650BE7004873C3 /* Main.storyboard */; };
 		6C41DEBA1C650BE7004873C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C41DEB91C650BE7004873C3 /* Assets.xcassets */; };
 		6C41DEBD1C650BE7004873C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C41DEBB1C650BE7004873C3 /* LaunchScreen.storyboard */; };
+		6C41DEC51C651288004873C3 /* earth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41DEC41C651288004873C3 /* earth.swift */; };
+		6C41DEC71C652B39004873C3 /* mars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41DEC61C652B39004873C3 /* mars.swift */; };
+		6C41DEC91C652CB9004873C3 /* uranus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41DEC81C652CB9004873C3 /* uranus.swift */; };
+		6C41DECB1C653079004873C3 /* neptune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41DECA1C653079004873C3 /* neptune.swift */; };
+		6C41DECD1C6530EB004873C3 /* jupiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41DECC1C6530EB004873C3 /* jupiter.swift */; };
+		6C41DECF1C65332A004873C3 /* sun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41DECE1C65332A004873C3 /* sun.swift */; };
+		6C41DED11C653631004873C3 /* venus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41DED01C653631004873C3 /* venus.swift */; };
+		6C41DED31C653668004873C3 /* mercury.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41DED21C653668004873C3 /* mercury.swift */; };
+		6C41DED51C6538A4004873C3 /* saturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41DED41C6538A4004873C3 /* saturn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		6C41DEB91C650BE7004873C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C41DEBC1C650BE7004873C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C41DEBE1C650BE7004873C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C41DEC41C651288004873C3 /* earth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = earth.swift; sourceTree = "<group>"; };
+		6C41DEC61C652B39004873C3 /* mars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mars.swift; sourceTree = "<group>"; };
+		6C41DEC81C652CB9004873C3 /* uranus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uranus.swift; sourceTree = "<group>"; };
+		6C41DECA1C653079004873C3 /* neptune.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = neptune.swift; sourceTree = "<group>"; };
+		6C41DECC1C6530EB004873C3 /* jupiter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jupiter.swift; sourceTree = "<group>"; };
+		6C41DECE1C65332A004873C3 /* sun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sun.swift; sourceTree = "<group>"; };
+		6C41DED01C653631004873C3 /* venus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = venus.swift; sourceTree = "<group>"; };
+		6C41DED21C653668004873C3 /* mercury.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mercury.swift; sourceTree = "<group>"; };
+		6C41DED41C6538A4004873C3 /* saturn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = saturn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,15 @@
 				6C41DEB91C650BE7004873C3 /* Assets.xcassets */,
 				6C41DEBB1C650BE7004873C3 /* LaunchScreen.storyboard */,
 				6C41DEBE1C650BE7004873C3 /* Info.plist */,
+				6C41DEC41C651288004873C3 /* earth.swift */,
+				6C41DEC61C652B39004873C3 /* mars.swift */,
+				6C41DEC81C652CB9004873C3 /* uranus.swift */,
+				6C41DECA1C653079004873C3 /* neptune.swift */,
+				6C41DECC1C6530EB004873C3 /* jupiter.swift */,
+				6C41DECE1C65332A004873C3 /* sun.swift */,
+				6C41DED01C653631004873C3 /* venus.swift */,
+				6C41DED21C653668004873C3 /* mercury.swift */,
+				6C41DED41C6538A4004873C3 /* saturn.swift */,
 			);
 			path = SolarSystemPixel;
 			sourceTree = "<group>";
@@ -135,8 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C41DEC71C652B39004873C3 /* mars.swift in Sources */,
+				6C41DECB1C653079004873C3 /* neptune.swift in Sources */,
+				6C41DECF1C65332A004873C3 /* sun.swift in Sources */,
 				6C41DEB51C650BE7004873C3 /* ViewController.swift in Sources */,
+				6C41DEC91C652CB9004873C3 /* uranus.swift in Sources */,
+				6C41DED31C653668004873C3 /* mercury.swift in Sources */,
 				6C41DEB31C650BE7004873C3 /* AppDelegate.swift in Sources */,
+				6C41DEC51C651288004873C3 /* earth.swift in Sources */,
+				6C41DED11C653631004873C3 /* venus.swift in Sources */,
+				6C41DED51C6538A4004873C3 /* saturn.swift in Sources */,
+				6C41DECD1C6530EB004873C3 /* jupiter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +322,7 @@
 				6C41DEC31C650BE7004873C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
