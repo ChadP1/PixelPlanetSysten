@@ -5,6 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Symtext.ttf">
+            <string>Symtext</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -35,7 +40,7 @@
                                             <constraint firstAttribute="width" constant="35" id="oUo-AW-3tZ"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saturn1" translatesAutoresizingMaskIntoConstraints="NO" id="Juj-iV-gYZ" customClass="saturn" customModule="SolarSystemPixel" customModuleProvider="target">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Saturn2" translatesAutoresizingMaskIntoConstraints="NO" id="Juj-iV-gYZ" customClass="saturn" customModule="SolarSystemPixel" customModuleProvider="target">
                                         <rect key="frame" x="42" y="106" width="54" height="54"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="54" id="BR8-qe-a8V"/>
@@ -117,8 +122,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Planet Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQr-bH-GTI">
-                                        <rect key="frame" x="231" y="15.5" width="138" height="28"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                        <rect key="frame" x="204" y="12.5" width="193.5" height="35.5"/>
+                                        <fontDescription key="fontDescription" name="Symtext" family="Symtext" pointSize="24"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -216,13 +221,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Saturn2" width="60" height="60"/>
         <image name="Uranus1" width="65" height="65"/>
         <image name="earth1" width="21" height="20"/>
         <image name="jupiter1" width="80" height="80"/>
         <image name="mars1" width="89" height="82"/>
         <image name="merc1" width="45" height="45"/>
         <image name="neptune1" width="56" height="54"/>
-        <image name="saturn1" width="75" height="75"/>
         <image name="sun1" width="140" height="140"/>
         <image name="venus1" width="55" height="55"/>
     </resources>

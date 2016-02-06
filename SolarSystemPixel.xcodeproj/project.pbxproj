@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6C32D9861C654A9100080BA7 /* planetClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C32D9851C654A9100080BA7 /* planetClass.swift */; };
+		6C32D9881C6667ED00080BA7 /* Symtext.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C32D9871C6667ED00080BA7 /* Symtext.ttf */; };
 		6C41DEB31C650BE7004873C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41DEB21C650BE7004873C3 /* AppDelegate.swift */; };
 		6C41DEB51C650BE7004873C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41DEB41C650BE7004873C3 /* ViewController.swift */; };
 		6C41DEB81C650BE7004873C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C41DEB61C650BE7004873C3 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		6C32D9851C654A9100080BA7 /* planetClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = planetClass.swift; sourceTree = "<group>"; };
+		6C32D9871C6667ED00080BA7 /* Symtext.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Symtext.ttf; sourceTree = "<group>"; };
 		6C41DEAF1C650BE7004873C3 /* SolarSystemPixel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSystemPixel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C41DEB21C650BE7004873C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C41DEB41C650BE7004873C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				6C41DEB61C650BE7004873C3 /* Main.storyboard */,
 				6C41DEB91C650BE7004873C3 /* Assets.xcassets */,
 				6C41DEBB1C650BE7004873C3 /* LaunchScreen.storyboard */,
+				6C32D9871C6667ED00080BA7 /* Symtext.ttf */,
 				6C41DEBE1C650BE7004873C3 /* Info.plist */,
 				6C41DEC41C651288004873C3 /* earth.swift */,
 				6C41DEC61C652B39004873C3 /* mars.swift */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C41DEBD1C650BE7004873C3 /* LaunchScreen.storyboard in Resources */,
+				6C32D9881C6667ED00080BA7 /* Symtext.ttf in Resources */,
 				6C41DEBA1C650BE7004873C3 /* Assets.xcassets in Resources */,
 				6C41DEB81C650BE7004873C3 /* Main.storyboard in Resources */,
 			);
@@ -293,6 +297,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ThatchedRoof.SolarSystemPixel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,6 +309,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ThatchedRoof.SolarSystemPixel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -21,7 +21,7 @@ class saturn: UIImageView {
     
     func animate() {
         
-        self.image = UIImage(named: "saturn1")
+        self.image = UIImage(named: "Saturn1")
         
         self.animationImages = nil
         
@@ -29,7 +29,7 @@ class saturn: UIImageView {
         
         for var x = 1; x <= 2; x++ {
             
-            let img = UIImage(named: "saturn\(x)")
+            let img = UIImage(named: "Saturn\(x)")
             imageArray.append(img!)
         }
         
